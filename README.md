@@ -7,10 +7,12 @@ including AHP, PROMETHEE, and more.
 
 ## About the Blog Series
 
-In my [MCDA blog posts](https://medium.com/@marciaolivetree), I break down complex decisions using practical, hands-on
-examples in Python.
+In my [MCDA blog series on Medium](https://medium.com/@marciaolivetree), I break down complex decisions using practical, hands-on examples in Python.
+
 Each method is introduced step-by-step and illustrated with relatable scenarios, so you can follow along or adapt the
 code to your own projects.
+
+My goal is to make MCDA more accesible, transparent, and applicable to your own decisions.
 
 ### Analytic Hierarchy Process (AHP):
 
@@ -20,10 +22,17 @@ code to your own projects.
   criteria and comparing options, to checking consistency and making the final decision.
 - **Reproducible:** All the calculations and tables in the blog post are backed by the Jupyter notebook
   `AHP_house_hunting.ipynb` included in this repository. You can open this notebook to follow along, experiment, or
-  verify
-  the results for yourself.
+  verify the results for yourself.
 
-Other posts and code notebooks, including PROMETHEE and more, will be added as the series continues.
+### PROMETHEE I & II:
+- **What it is:** PROMETHEE is a family of outranking methods that help you compare options based on preferences, thresholds, and trade-offs, without forcing everything into a single scale. Unlike AHP, it doesn't assume your preferences are always proportional or linear.
+- **What you'll learn:** My post uses a realistic job offer comparison to walk through every PROMETHEE I & II step: from defining criteria and preference functions, to setting thresholds and interpreting the final rankings.
+- **Reproducible:** All the calculations and tables in the blog post are backed by the Jupyter notebook
+  `PROMETHEE_job_offers.ipynb` included in this repository. You can open this notebook to follow along, experiment, or
+  verify the results for yourself.
+
+Other posts and code notebooks will be added as the series continues.
+
 
 ## Repository Contents
 
